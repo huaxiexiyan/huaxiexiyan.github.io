@@ -23,8 +23,8 @@ export default defineHopeConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "主题演示",
-      description: "vuepress-theme-hope 的演示",
+      title: "雪乃の猫",
+      description: "雪乃の猫 的博客",
     },
   },
 
