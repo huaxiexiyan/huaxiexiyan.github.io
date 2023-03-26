@@ -1,0 +1,1 @@
+import{_ as t,W as _,X as a,Y as e,Z as s}from"./framework-6199cc12.js";const c={},r=e("h1",{id:"页面内容2",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#页面内容2","aria-hidden":"true"},"#"),s(" 页面内容2")],-1),o=[r];function n(d,i){return _(),a("div",null,o)}const l=t(c,[["render",n],["__file","Redis基础数据类型.html.vue"]]);export{l as default};

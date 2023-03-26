@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://www.catguild.cn/sitemap.xml
+Sitemap: https://blog.catguild.cn/sitemap.xml
