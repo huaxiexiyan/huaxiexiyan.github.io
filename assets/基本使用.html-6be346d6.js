@@ -1,0 +1,10 @@
+import{_ as e,W as a,X as s,a2 as i}from"./framework-6199cc12.js";const n={},d=i(`<h1 id="基本安装" tabindex="-1"><a class="header-anchor" href="#基本安装" aria-hidden="true">#</a> 基本安装</h1><p>1、到官网下载最新的版本</p><h1 id="虚拟环境" tabindex="-1"><a class="header-anchor" href="#虚拟环境" aria-hidden="true">#</a> 虚拟环境</h1><p>1、安装</p><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code>pip <span class="token function">install</span> pipenv
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>2、（选用）修改环境变量 该环境会让虚拟环境创建再当前项目下，否则会创建默认位置</p><div class="language-txt line-numbers-mode" data-ext="txt"><pre class="language-txt"><code>PIPENV_VENV_IN_PROJECT=1
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>3、到项目目录下</p><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code>pipenv <span class="token function">install</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>该命令会创建虚拟环境目录，并生成 <code>Pipfile</code> 和<code>Pipfile.lock</code> 文件</p><p>4、安装依赖</p><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code>pipenv <span class="token function">install</span> package_name
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>5、国内源</p><div class="language-txt line-numbers-mode" data-ext="txt"><pre class="language-txt"><code>阿里云 http://mirrors.aliyun.com/pypi/simple/
+中国科技大学 https://pypi.mirrors.ustc.edu.cn/simple/
+豆瓣(douban) http://pypi.douban.com/simple/
+清华大学 https://pypi.tuna.tsinghua.edu.cn/simple/
+中国科学技术大学 http://pypi.mirrors.ustc.edu.cn/simple/
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,14),l=[d];function t(c,r){return a(),s("div",null,l)}const u=e(n,[["render",t],["__file","基本使用.html.vue"]]);export{u as default};

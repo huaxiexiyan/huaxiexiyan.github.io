@@ -1,0 +1,1 @@
+import{_ as e,W as _,X as s,Y as t}from"./framework-6199cc12.js";const c={},o=t("p",null,"1、Redis除了拿来做缓存",-1),n=[o];function r(a,l){return _(),s("div",null,n)}const i=e(c,[["render",r],["__file","Redis面试题.html.vue"]]);export{i as default};
